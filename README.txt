@@ -1,1 +1,0 @@
-> Spark interface for firebase databases.
