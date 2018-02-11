@@ -66,7 +66,7 @@ class Spark {
      */
     push(path, data) {
         let key = this.getNewKey();
-        return this.write(path = '/' + key, data).then(data => {
+        return this.write(path + key, data).then(data => {
             return data;
         });
     }
