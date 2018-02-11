@@ -1,0 +1,22 @@
+{
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Spark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelfitzhavey/Spark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelfitzhavey/Spark/issues"
+  },
+  "homepage": "https://github.com/michaelfitzhavey/Spark#readme",
+  "dependencies": {
+    "firebase": "^4.9.1"
+  }
+}
