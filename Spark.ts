@@ -1,4 +1,4 @@
-import firebase = require('firebase/app');
+var firebase = require('firebase/app');
 import "firebase/database";
 
 import { Injectable } from '@angular/core';
