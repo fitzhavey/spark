@@ -132,7 +132,7 @@ export default class Spark {
      * @param callback function to be run when data changes
      * @returns a Promise of true is subscription is successful
      */
-    subscribeToArray(path: string, callback: Function){
+    subscribeToArray(path: string, callback: Function): Promise<Boolean>{
         return Promise.all([
             this.db.ref(path).on('value', snap => {
                 callback(Object.values(snap.val()));
