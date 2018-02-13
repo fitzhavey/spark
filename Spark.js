@@ -1,4 +1,6 @@
 var firebase = require('firebase');
+// alternatively to line above you can paste the below line into the html file
+//<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
 
 
 /**
